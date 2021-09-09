@@ -1,0 +1,140 @@
+body {
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*
+    SECCIÓN DE LA BARRA DE MENÚ
+*/
+
+#menu header {
+    font: oblique bold 120% cursive;
+    font-size: 1rem;
+    text-align: center;
+    color: white;
+    background: black;
+    margin-top: 0px;
+    padding: 1px;
+}
+
+
+
+#login-background ul li{
+    font: oblique bold 120% cursive;
+    font-size: 2rem;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    padding: 8px 5px;
+    font-weight: bold;
+}
+
+
+   /*
+        COLOCAR LA IMAGEN DE FONDO DE LA PRIMERA PANTALLA
+    */
+
+#login-background{ 
+    background-image: url("images/factorial.jpg");
+    background-size: cover;
+    text-align: center;
+} 
+
+.login-margen{
+    padding: 6px;
+    height: 650px;
+}
+
+/*POSICION DEL FORMULARIO*/
+
+#divContenedor {
+     position: absolute;
+    height: 200px;
+    width: 300px;
+    margin:0 auto;
+    background-color:	#E9967A;
+    border-style: outset;
+    left: 50px;
+    top: 200px;
+    border-radius: 8px 8px 8px 8px;
+    -moz-border-radius: 8px 8px 8px 8px;
+    -webkit-border-radius: 8px 8px 8px 8px;
+    box-shadow: 10px 10px 24px 0px rgba(0,0,0,0.75);  
+}
+
+
+ 
+
+#divContenedor form input{
+    font-family: "Roboto", sans-serif;
+    width: 30%;
+    padding: 5px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box; 
+    color: gray; 
+    font-size: 1rem;
+    resize: horizontal;
+    border: 2px solid rgba(0, 0, 0, 0.1); 
+    
+    
+  }
+
+  
+  form button {
+      position: relative;
+	display: block;
+	background-color: rgba(255, 99, 71, 0.8);
+	padding: 7px 30px 7px 30px;
+	border: 0;
+	font-size: 1em; 
+	color: 	white;
+  font-family: "Roboto", sans-serif;
+  left: 80px;
+  top: 20px;
+  
+  box-shadow: 10px 10px 24px 0px rgba(0,0,0,0.40);
+}
+form button:hover{
+	background-color:rgba(255, 99, 71, 1);
+}
+
+
+#divContenedor a{
+    text-decoration: none;
+    color: #9A3636;
+    font-size:1rem; font-weight:bold
+}
+
+#divContenedor label{
+    
+    color: #302626;
+    font-size:1rem; font-weight:bold
+}
+
+
+
+
+/*
+ SECCIÓN DE FOOTER
+*/
+
+#footer {
+    color: white;
+    background: black;
+}
+
+.datos-usuario {
+    display: inline-block;
+    padding-left: 15%;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
